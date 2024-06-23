@@ -97,6 +97,29 @@ audio:not([controls]) {
   display: none;
   height: 0;
 }
+
+/*
+---------------------------------
+accordion styling
+-----------------------------*/
+.knowmore {
+  
+  color: #444;
+  cursor: pointer;
+  text-align: left;
+  border: 10px;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+}
+
+.panel {
+  display: none;
+  overflow: hidden;
+}
 img {
   border-style: none;
 }
@@ -1785,8 +1808,8 @@ html.is-reveal-open body {
 #mc_embed_signup input.button {
   width: 100%;
   background: 0 0;
-  border: 1px solid #00c0ff;
-  color: #00c0ff;
+  border: 1px solid #14C38E;
+  color: #14C38E;
 }
 .nav-inner .social {
   margin-top: 1rem;
@@ -2463,7 +2486,7 @@ img.mfp-img {
   transform: translateY(100%);
 }
 .pace .pace-progress {
-  background: #00c0ff;
+  background: #14C38E;
 }
 body {
   background: #13140f;
@@ -2483,7 +2506,7 @@ h6 {
 }
 a,
 .highlight {
-  color: #00c0ff;
+  color: #14C38E;
 }
 a:hover {
   color: #b6db00;
@@ -2514,8 +2537,8 @@ a:hover {
   font-family: space mono, Helvetica, Arial, sans-serif;
 }
 .button.blue {
-  border: 1px solid #00c0ff;
-  color: #00c0ff;
+  border: 1px solid #14C38E;
+  color: #14C38E;
 }
 .button.blue:focus,
 .button.blue:hover {
