@@ -112,6 +112,18 @@ accordion styling
   transition: 0.4s;
 }
 
+/*
+---------------------------------------------
+courses styling
+---------------------------------------------
+*/
+
+.courses{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
 }
@@ -416,7 +428,7 @@ p {
   font-size: 1.5rem;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
-  text-align: justify;
+  text-align: left;
 }
 em,
 i {
@@ -636,7 +648,7 @@ p + .stat {
   text-align: center;
 }
 .text-justify {
-  text-align: justify;
+  text-align: left;
 }
 @media print, screen and (min-width: 40em) {
   .medium-text-left {
@@ -649,7 +661,7 @@ p + .stat {
     text-align: center;
   }
   .medium-text-justify {
-    text-align: justify;
+    text-align: left;
   }
 }
 @media print, screen and (min-width: 64em) {
@@ -663,7 +675,7 @@ p + .stat {
     text-align: center;
   }
   .large-text-justify {
-    text-align: justify;
+    text-align: left;
   }
 }
 .show-for-print {
@@ -2925,4 +2937,10 @@ section {
   width: 90%;
   text-align: center;
   padding-top: 20px;
+}
+
+@media(max-width:1068px){
+  .courses{
+    flex-direction:column;
+  }
 }
