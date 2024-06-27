@@ -583,12 +583,12 @@ blockquote {
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #8a8a8a;
+  color: #fefefe;
 }
 cite {
   display: block;
   font-size: 0.8125rem;
-  color: #8a8a8a;
+  color: #fefefe;
 }
 cite:before {
   content: "— ";
@@ -729,7 +729,7 @@ p + .stat {
   }
   blockquote,
   pre {
-    border: 1px solid #8a8a8a;
+    border: 1px solid #fefefe;
     page-break-inside: avoid;
   }
   thead {
@@ -809,7 +809,7 @@ p + .stat {
   margin-bottom: 1rem;
 }
 .nav-inner ul li a {
-  color: #8a8a8a;
+  color: #fefefe;
 }
 .nav-inner ul a:hover {
   color: #fefefe;
@@ -978,7 +978,7 @@ p + .stat {
   color: inherit;
 }
 .about-body .content-2 {
-  color: #8a8a8a;
+  color: #fefefe;
 }
 #posts {
   margin-left: -0.857rem;
@@ -1405,7 +1405,7 @@ textarea {
   font-family: inherit;
   font-size: 1rem;
   font-weight: 300;
-  color: #8a8a8a;
+  color: #fefefe;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1427,7 +1427,7 @@ textarea {
 [type="week"]:focus,
 textarea:focus {
   outline: none;
-  border: 1px solid #8a8a8a;
+  border: 1px solid #fefefe;
   background-color: transparent;
   box-shadow: none;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -1608,7 +1608,7 @@ select {
   font-family: inherit;
   font-size: 1rem;
   line-height: normal;
-  color: #8a8a8a;
+  color: #fefefe;
   background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgd2lkdGg9JzMyJyBoZWlnaHQ9JzI0JyB2aWV3Qm94PScwIDAgMzIgMjQnPjxwb2x5Z29uIHBvaW50cz0nMCwwIDMyLDAgMTYsMjQnIHN0eWxlPSdmaWxsOiByZ2IoMTM4LCAxMzgsIDEzOCknPjwvcG9seWdvbj48L3N2Zz4=);
   background-origin: content-box;
   background-position: right -1rem center;
@@ -1624,7 +1624,7 @@ select {
 }
 select:focus {
   outline: none;
-  border: 1px solid #8a8a8a;
+  border: 1px solid #fefefe;
   background-color: transparent;
   box-shadow: none;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -1877,7 +1877,7 @@ html.is-reveal-open body {
   height: 80px;
 }
 .post-tag a {
-  color: #8a8a8a;
+  color: #fefefe;
   opacity: 0.4;
 }
 .post-tag a:hover {
@@ -1900,7 +1900,7 @@ html.is-reveal-open body {
   margin-right: 0;
 }
 .share-control a {
-  color: #8a8a8a;
+  color: #fefefe;
   opacity: 0.5;
 }
 .share-control a:hover {
@@ -2502,7 +2502,7 @@ img.mfp-img {
 }
 body {
   background: #13140f;
-  color: #8a8a8a;
+  color: #fefefe;
   font-family: roboto, Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
@@ -2540,7 +2540,7 @@ a:hover {
   background-color: #13140f;
 }
 .nav-inner ul li a {
-  color: #8a8a8a;
+  color: #fefefe;
 }
 .nav-inner ul li a:hover {
   color: #fefefe;
@@ -2586,10 +2586,10 @@ a:hover {
   color: #fefefe;
 }
 .about-body .content-main {
-  color: #8a8a8a;
+  color: #fefefe;
 }
 .item-inner {
-  background: #8a8a8a;
+  background: #fefefe;
 }
 .contact-info {
   margin: 2rem 0;
